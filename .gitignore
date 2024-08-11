@@ -1,0 +1,28 @@
+# Compiled source #
+*.class
+*.war
+*.ear
+
+# Logs #
+*.log
+
+# Maven #
+target/
+*.jar
+
+# Eclipse #
+.classpath
+.project
+.settings/
+
+# OS generated files #
+.DS_Store
+Thumbs.db
+
+# Project specific #
+webapp/complaint-docs/
+webapp/detection_videos/
+
+# Others #
+*.zip
+*.tar.gz

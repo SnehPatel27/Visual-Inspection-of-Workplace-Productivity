@@ -26,3 +26,58 @@ webapp/detection_videos/
 # Others #
 *.zip
 *.tar.gz
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite3
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+VENV/
+env.bak/
+venv.bak/
+
+# Ignore IDE specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+
+# Ignore the static videos
+base/static/video/*.mp4
+base/static/video/*.avi
+
+# Ignore config files with secrets
+config.py
+
+# Ignore the following file types
+*.bak
+*.swp
+*.tmp
+*.old
+*.DS_Store
+
+# Ignore any other files you want to keep private
+.env
+.secret
+
+# If you have a database URI or other sensitive information, you might also want to ignore your config file if it's not already configured in your environment variables
+app.config['SQLALCHEMY_DATABASE_URI']
+app.config['SECRET_KEY']
+
+# Ignore other specific files or directories
+node_modules/
+coverage/
+dist/
+build/
+*.egg-info/
+
